@@ -1,0 +1,662 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B492C1DC1FB1B9310012D7C4 /* CardRestAPITest.swift in Sources */ = {isa = PBXBuildFile; fileRef = B492C1DB1FB1B9310012D7C4 /* CardRestAPITest.swift */; };
+		BF1D5A491FAB5BD500D21566 /* DWAplatform.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF1D5A3F1FAB5BD500D21566 /* DWAplatform.framework */; };
+		BF1D5A4E1FAB5BD500D21566 /* DWAplatformTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF1D5A4D1FAB5BD500D21566 /* DWAplatformTests.swift */; };
+		BF1D5A501FAB5BD500D21566 /* DWAplatform.h in Headers */ = {isa = PBXBuildFile; fileRef = BF1D5A421FAB5BD500D21566 /* DWAplatform.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BF1D5A5D1FAB5C0500D21566 /* CardHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF1D5A5A1FAB5C0500D21566 /* CardHelper.swift */; };
+		BF1D5A5E1FAB5C0500D21566 /* DataTimeConversion.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF1D5A5B1FAB5C0500D21566 /* DataTimeConversion.swift */; };
+		BF1D5A5F1FAB5C0500D21566 /* SanityCheck.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF1D5A5C1FAB5C0500D21566 /* SanityCheck.swift */; };
+		BF1D5A631FAB5C2F00D21566 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF1D5A621FAB5C2F00D21566 /* Card.swift */; };
+		BF1D5A651FAB5C3E00D21566 /* CardAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF1D5A641FAB5C3E00D21566 /* CardAPI.swift */; };
+		BF1D5A671FAB5C5000D21566 /* DWAplatform.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF1D5A661FAB5C5000D21566 /* DWAplatform.swift */; };
+		BF56D25D1FAC74990038E645 /* CardRestAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF56D25C1FAC74990038E645 /* CardRestAPI.swift */; };
+		BF56D2611FACBA090038E645 /* SanityCheckTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF56D2601FACBA090038E645 /* SanityCheckTest.swift */; };
+		BFC7792F1FB05E3B006129FC /* DateTimeConversionTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC7792E1FB05E3B006129FC /* DateTimeConversionTest.swift */; };
+		BFC779311FB07326006129FC /* CardHelperTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC779301FB07326006129FC /* CardHelperTest.swift */; };
+		BFC779331FB3585C006129FC /* CardAPITest.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC779321FB3585C006129FC /* CardAPITest.swift */; };
+		BFC779351FB35D24006129FC /* CardRestApiMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC779341FB35D24006129FC /* CardRestApiMock.swift */; };
+		BFC779371FB35EBA006129FC /* CardHelperMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC779361FB35EBA006129FC /* CardHelperMock.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BF1D5A4A1FAB5BD500D21566 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BF1D5A361FAB5BD500D21566 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BF1D5A3E1FAB5BD500D21566;
+			remoteInfo = DWAplatform;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		591C9A5979F0AA116B3D31D2 /* Pods-DWAplatform.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DWAplatform.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DWAplatform/Pods-DWAplatform.debug.xcconfig"; sourceTree = "<group>"; };
+		6167DF79194ADAAD275106FB /* Pods-DWAplatformTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DWAplatformTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DWAplatformTests/Pods-DWAplatformTests.release.xcconfig"; sourceTree = "<group>"; };
+		6F7CA881489DC6A2F280C5F6 /* Pods-DWAplatformTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DWAplatformTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DWAplatformTests/Pods-DWAplatformTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B492C1DB1FB1B9310012D7C4 /* CardRestAPITest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardRestAPITest.swift; sourceTree = "<group>"; };
+		BCD6C662BF44B2D8295C06D8 /* Pods-DWAplatform.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DWAplatform.release.xcconfig"; path = "Pods/Target Support Files/Pods-DWAplatform/Pods-DWAplatform.release.xcconfig"; sourceTree = "<group>"; };
+		BF1D5A3F1FAB5BD500D21566 /* DWAplatform.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DWAplatform.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF1D5A421FAB5BD500D21566 /* DWAplatform.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DWAplatform.h; sourceTree = "<group>"; };
+		BF1D5A431FAB5BD500D21566 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF1D5A481FAB5BD500D21566 /* DWAplatformTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DWAplatformTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF1D5A4D1FAB5BD500D21566 /* DWAplatformTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DWAplatformTests.swift; sourceTree = "<group>"; };
+		BF1D5A4F1FAB5BD500D21566 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF1D5A5A1FAB5C0500D21566 /* CardHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardHelper.swift; sourceTree = "<group>"; };
+		BF1D5A5B1FAB5C0500D21566 /* DataTimeConversion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataTimeConversion.swift; sourceTree = "<group>"; };
+		BF1D5A5C1FAB5C0500D21566 /* SanityCheck.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SanityCheck.swift; sourceTree = "<group>"; };
+		BF1D5A621FAB5C2F00D21566 /* Card.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		BF1D5A641FAB5C3E00D21566 /* CardAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardAPI.swift; sourceTree = "<group>"; };
+		BF1D5A661FAB5C5000D21566 /* DWAplatform.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DWAplatform.swift; sourceTree = "<group>"; };
+		BF56D25C1FAC74990038E645 /* CardRestAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardRestAPI.swift; sourceTree = "<group>"; };
+		BF56D2601FACBA090038E645 /* SanityCheckTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SanityCheckTest.swift; sourceTree = "<group>"; };
+		BFC7792E1FB05E3B006129FC /* DateTimeConversionTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateTimeConversionTest.swift; sourceTree = "<group>"; };
+		BFC779301FB07326006129FC /* CardHelperTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardHelperTest.swift; sourceTree = "<group>"; };
+		BFC779321FB3585C006129FC /* CardAPITest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardAPITest.swift; sourceTree = "<group>"; };
+		BFC779341FB35D24006129FC /* CardRestApiMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardRestApiMock.swift; sourceTree = "<group>"; };
+		BFC779361FB35EBA006129FC /* CardHelperMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardHelperMock.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BF1D5A3B1FAB5BD500D21566 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF1D5A451FAB5BD500D21566 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF1D5A491FAB5BD500D21566 /* DWAplatform.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3C22820B961C415705438156 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B492C1DD1FB1B93E0012D7C4 /* api */ = {
+			isa = PBXGroup;
+			children = (
+				B492C1DB1FB1B9310012D7C4 /* CardRestAPITest.swift */,
+			);
+			path = api;
+			sourceTree = "<group>";
+		};
+		B5E578ADFC4DCC37BEA6CE25 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				591C9A5979F0AA116B3D31D2 /* Pods-DWAplatform.debug.xcconfig */,
+				BCD6C662BF44B2D8295C06D8 /* Pods-DWAplatform.release.xcconfig */,
+				6F7CA881489DC6A2F280C5F6 /* Pods-DWAplatformTests.debug.xcconfig */,
+				6167DF79194ADAAD275106FB /* Pods-DWAplatformTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BF1D5A351FAB5BD500D21566 = {
+			isa = PBXGroup;
+			children = (
+				BF1D5A411FAB5BD500D21566 /* DWAplatform */,
+				BF1D5A4C1FAB5BD500D21566 /* DWAplatformTests */,
+				BF1D5A401FAB5BD500D21566 /* Products */,
+				B5E578ADFC4DCC37BEA6CE25 /* Pods */,
+				3C22820B961C415705438156 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		BF1D5A401FAB5BD500D21566 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BF1D5A3F1FAB5BD500D21566 /* DWAplatform.framework */,
+				BF1D5A481FAB5BD500D21566 /* DWAplatformTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BF1D5A411FAB5BD500D21566 /* DWAplatform */ = {
+			isa = PBXGroup;
+			children = (
+				BF56D25B1FAC74170038E645 /* api */,
+				BF1D5A661FAB5C5000D21566 /* DWAplatform.swift */,
+				BF1D5A601FAB5C2F00D21566 /* card */,
+				BF1D5A421FAB5BD500D21566 /* DWAplatform.h */,
+				BF1D5A431FAB5BD500D21566 /* Info.plist */,
+			);
+			path = DWAplatform;
+			sourceTree = "<group>";
+		};
+		BF1D5A4C1FAB5BD500D21566 /* DWAplatformTests */ = {
+			isa = PBXGroup;
+			children = (
+				BF56D25E1FACB8D30038E645 /* card */,
+				BF1D5A4D1FAB5BD500D21566 /* DWAplatformTests.swift */,
+				BF1D5A4F1FAB5BD500D21566 /* Info.plist */,
+			);
+			path = DWAplatformTests;
+			sourceTree = "<group>";
+		};
+		BF1D5A591FAB5C0500D21566 /* helpers */ = {
+			isa = PBXGroup;
+			children = (
+				BF1D5A5A1FAB5C0500D21566 /* CardHelper.swift */,
+				BF1D5A5B1FAB5C0500D21566 /* DataTimeConversion.swift */,
+				BF1D5A5C1FAB5C0500D21566 /* SanityCheck.swift */,
+			);
+			path = helpers;
+			sourceTree = "<group>";
+		};
+		BF1D5A601FAB5C2F00D21566 /* card */ = {
+			isa = PBXGroup;
+			children = (
+				BF1D5A591FAB5C0500D21566 /* helpers */,
+				BF1D5A641FAB5C3E00D21566 /* CardAPI.swift */,
+				BF1D5A611FAB5C2F00D21566 /* models */,
+			);
+			path = card;
+			sourceTree = "<group>";
+		};
+		BF1D5A611FAB5C2F00D21566 /* models */ = {
+			isa = PBXGroup;
+			children = (
+				BF1D5A621FAB5C2F00D21566 /* Card.swift */,
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
+		BF56D25B1FAC74170038E645 /* api */ = {
+			isa = PBXGroup;
+			children = (
+				BF56D25C1FAC74990038E645 /* CardRestAPI.swift */,
+			);
+			path = api;
+			sourceTree = "<group>";
+		};
+		BF56D25E1FACB8D30038E645 /* card */ = {
+			isa = PBXGroup;
+			children = (
+				BF56D25F1FACB9DA0038E645 /* helpers */,
+				B492C1DD1FB1B93E0012D7C4 /* api */,
+				BFC779321FB3585C006129FC /* CardAPITest.swift */,
+				BFC779341FB35D24006129FC /* CardRestApiMock.swift */,
+				BFC779361FB35EBA006129FC /* CardHelperMock.swift */,
+			);
+			path = card;
+			sourceTree = "<group>";
+		};
+		BF56D25F1FACB9DA0038E645 /* helpers */ = {
+			isa = PBXGroup;
+			children = (
+				BF56D2601FACBA090038E645 /* SanityCheckTest.swift */,
+				BFC7792E1FB05E3B006129FC /* DateTimeConversionTest.swift */,
+				BFC779301FB07326006129FC /* CardHelperTest.swift */,
+			);
+			path = helpers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		BF1D5A3C1FAB5BD500D21566 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF1D5A501FAB5BD500D21566 /* DWAplatform.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		BF1D5A3E1FAB5BD500D21566 /* DWAplatform */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF1D5A531FAB5BD500D21566 /* Build configuration list for PBXNativeTarget "DWAplatform" */;
+			buildPhases = (
+				7C812A767EC0C038F6F93308 /* [CP] Check Pods Manifest.lock */,
+				BF1D5A3A1FAB5BD500D21566 /* Sources */,
+				BF1D5A3B1FAB5BD500D21566 /* Frameworks */,
+				BF1D5A3C1FAB5BD500D21566 /* Headers */,
+				BF1D5A3D1FAB5BD500D21566 /* Resources */,
+				B3DA119BE64943FB5BF6ADF8 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DWAplatform;
+			productName = DWAplatform;
+			productReference = BF1D5A3F1FAB5BD500D21566 /* DWAplatform.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		BF1D5A471FAB5BD500D21566 /* DWAplatformTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF1D5A561FAB5BD500D21566 /* Build configuration list for PBXNativeTarget "DWAplatformTests" */;
+			buildPhases = (
+				DF8600920828B7969D4CC928 /* [CP] Check Pods Manifest.lock */,
+				BF1D5A441FAB5BD500D21566 /* Sources */,
+				BF1D5A451FAB5BD500D21566 /* Frameworks */,
+				BF1D5A461FAB5BD500D21566 /* Resources */,
+				8E919D5B8B4AAA4B69AE3D08 /* [CP] Embed Pods Frameworks */,
+				8F95FEB64F8E7179ECB782A5 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BF1D5A4B1FAB5BD500D21566 /* PBXTargetDependency */,
+			);
+			name = DWAplatformTests;
+			productName = DWAplatformTests;
+			productReference = BF1D5A481FAB5BD500D21566 /* DWAplatformTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BF1D5A361FAB5BD500D21566 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = DWAplatform;
+				TargetAttributes = {
+					BF1D5A3E1FAB5BD500D21566 = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+					};
+					BF1D5A471FAB5BD500D21566 = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = BF1D5A391FAB5BD500D21566 /* Build configuration list for PBXProject "DWAplatform" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = BF1D5A351FAB5BD500D21566;
+			productRefGroup = BF1D5A401FAB5BD500D21566 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BF1D5A3E1FAB5BD500D21566 /* DWAplatform */,
+				BF1D5A471FAB5BD500D21566 /* DWAplatformTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BF1D5A3D1FAB5BD500D21566 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF1D5A461FAB5BD500D21566 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7C812A767EC0C038F6F93308 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8E919D5B8B4AAA4B69AE3D08 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DWAplatformTests/Pods-DWAplatformTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8F95FEB64F8E7179ECB782A5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DWAplatformTests/Pods-DWAplatformTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B3DA119BE64943FB5BF6ADF8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DWAplatform/Pods-DWAplatform-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DF8600920828B7969D4CC928 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BF1D5A3A1FAB5BD500D21566 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF56D25D1FAC74990038E645 /* CardRestAPI.swift in Sources */,
+				BF1D5A5E1FAB5C0500D21566 /* DataTimeConversion.swift in Sources */,
+				BF1D5A651FAB5C3E00D21566 /* CardAPI.swift in Sources */,
+				BF1D5A5D1FAB5C0500D21566 /* CardHelper.swift in Sources */,
+				BF1D5A671FAB5C5000D21566 /* DWAplatform.swift in Sources */,
+				BF1D5A5F1FAB5C0500D21566 /* SanityCheck.swift in Sources */,
+				BF1D5A631FAB5C2F00D21566 /* Card.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF1D5A441FAB5BD500D21566 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFC779331FB3585C006129FC /* CardAPITest.swift in Sources */,
+				BF56D2611FACBA090038E645 /* SanityCheckTest.swift in Sources */,
+				BFC779311FB07326006129FC /* CardHelperTest.swift in Sources */,
+				BFC779371FB35EBA006129FC /* CardHelperMock.swift in Sources */,
+				BFC7792F1FB05E3B006129FC /* DateTimeConversionTest.swift in Sources */,
+				BFC779351FB35D24006129FC /* CardRestApiMock.swift in Sources */,
+				B492C1DC1FB1B9310012D7C4 /* CardRestAPITest.swift in Sources */,
+				BF1D5A4E1FAB5BD500D21566 /* DWAplatformTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BF1D5A4B1FAB5BD500D21566 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BF1D5A3E1FAB5BD500D21566 /* DWAplatform */;
+			targetProxy = BF1D5A4A1FAB5BD500D21566 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		BF1D5A511FAB5BD500D21566 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BF1D5A521FAB5BD500D21566 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BF1D5A541FAB5BD500D21566 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 591C9A5979F0AA116B3D31D2 /* Pods-DWAplatform.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 543376SB3C;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = DWAplatform/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dwaplatform.ios.DWAplatform;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BF1D5A551FAB5BD500D21566 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BCD6C662BF44B2D8295C06D8 /* Pods-DWAplatform.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 543376SB3C;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = DWAplatform/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dwaplatform.ios.DWAplatform;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BF1D5A571FAB5BD500D21566 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6F7CA881489DC6A2F280C5F6 /* Pods-DWAplatformTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 543376SB3C;
+				INFOPLIST_FILE = DWAplatformTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dwaplatform.ios.DWAplatformTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BF1D5A581FAB5BD500D21566 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6167DF79194ADAAD275106FB /* Pods-DWAplatformTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 543376SB3C;
+				INFOPLIST_FILE = DWAplatformTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dwaplatform.ios.DWAplatformTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BF1D5A391FAB5BD500D21566 /* Build configuration list for PBXProject "DWAplatform" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF1D5A511FAB5BD500D21566 /* Debug */,
+				BF1D5A521FAB5BD500D21566 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF1D5A531FAB5BD500D21566 /* Build configuration list for PBXNativeTarget "DWAplatform" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF1D5A541FAB5BD500D21566 /* Debug */,
+				BF1D5A551FAB5BD500D21566 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF1D5A561FAB5BD500D21566 /* Build configuration list for PBXNativeTarget "DWAplatformTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF1D5A571FAB5BD500D21566 /* Debug */,
+				BF1D5A581FAB5BD500D21566 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BF1D5A361FAB5BD500D21566 /* Project object */;
+}
